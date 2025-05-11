@@ -1,0 +1,22 @@
+.checkoutleft img{
+    width: 50%;
+    margin-bottom: 30px;
+    padding: 20px;
+}
+.checkout{
+    display: flex;
+    justify-content: space-between;
+}
+.checkoutleft{
+    background-color: white;
+    height: 100px;
+    color: black;
+}
+.gratting ,
+.shopingtitle{
+    text-align: center;
+    padding: 10px;
+}
+.checkout{
+    /* background-color: rgb(252, 222, 222); */
+}

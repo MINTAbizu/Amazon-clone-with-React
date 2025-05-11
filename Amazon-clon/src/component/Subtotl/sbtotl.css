@@ -1,0 +1,17 @@
+.subtotal{
+    margin: 30px;
+    /* background-color: rgb(245, 198, 198); */
+    color: black;
+    height: 100px;
+    width: 100%;
+    margin-right: 20px;
+    text-align: center;
+    padding: 20px;
+    background-color: rgb(198, 191, 191);
+
+    border: 2px solid black;
+    border-radius: 10px;
+    text-align: center;
+    color: black;
+    margin-left: -80px;
+}

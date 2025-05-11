@@ -1,16 +1,20 @@
 import React from 'react'
 import '../component/header.css'
 // import SearchIcon from '@mui/icons-material/Search';
-
+import {Link} from 'react-router-dom'
 function Header() {
   return (
     <div className='header'>
         <div className='logo'>
-        <img
+       <Link to={'/'}>
+
+       <img
 								className="header__logo  m-0 mt-4"
 								src="https://pngimg.com/uploads/amazon/amazon_PNG11.png"
 								alt="Amazone logo"
 							/>
+       
+       </Link>
             
         
 
