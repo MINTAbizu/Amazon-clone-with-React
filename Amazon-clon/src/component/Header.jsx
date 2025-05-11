@@ -37,10 +37,10 @@ function Header() {
         
         <div className="rightside">
             <div className="order">
-                <img src="" alt="order" />
+                {/* <img src="" alt="order" /> */}
             </div>
             <div className="cart">
-                <img src="" alt="" />
+                {/* <img src="" alt="" /> */}
                 0
             </div>
         </div>
