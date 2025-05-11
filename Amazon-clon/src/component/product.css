@@ -16,3 +16,26 @@
 	bottom:145px;
 
 }
+
+img{
+    width: 100%;
+    min-height: 10%;
+    /* margin-top: 40px; */
+}
+.rating{
+    display: flex;
+    padding: 10px;
+}
+
+.wacth {
+    width: 30px;
+    height: 10px;
+    background-color: rebeccapurple;
+
+
+}
+.addtocartbtn button{
+    background-color: orange;
+    color: black;
+    
+}
