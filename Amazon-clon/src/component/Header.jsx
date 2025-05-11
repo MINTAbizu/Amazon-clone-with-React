@@ -43,10 +43,15 @@ function Header() {
             <div className="order">
                 {/* <img src="" alt="order" /> */}
             </div>
-            <div className="cart">
+           <Link to={"/checkbox"}>
+
+           <div className="cart">
+            
                 {/* <img src="" alt="" /> */}
                 0
             </div>
+           
+           </Link>
         </div>
       
     </div>
