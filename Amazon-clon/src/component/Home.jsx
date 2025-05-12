@@ -23,24 +23,24 @@ function Home() {
 
     <div className="productrow">
         <Product image={image1} price={123.00} descrption={"the right choose this product"} rating={4}/>
-        <Product image={image2} price={123.00} descrption={"the right choose this product"} rating={4}/>
-        <Product image={image4} price={123.00} descrption={"the right choose this product"} rating={4}/>
+        {/* <Product image={image2} price={123.00} descrption={"the right choose this product"} rating={4}/> */}
+        <Product image={image4} price={123.00} descrption={"the right choose this product"} rating={4}/> 
         
         
 
     </div>
     <div className="productrow">
-    <Product image="https://m.media-amazon.com/images/I/61aoVkMoAwL._SL1263_.jpg" rating={5}/>
+    {/* <Product image="https://m.media-amazon.com/images/I/61aoVkMoAwL._SL1263_.jpg" rating={5}/>
     <Product image="https://m.media-amazon.com/images/I/61aoVkMoAwL._SL1263_.jpg"/>
     <Product image="https://m.media-amazon.com/images/I/61aoVkMoAwL._SL1263_.jpg"/>
     <Product image="https://m.media-amazon.com/images/I/61aoVkMoAwL._SL1263_.jpg"/>
-    <Product image="https://m.media-amazon.com/images/I/61aoVkMoAwL._SL1263_.jpg"/>
-    <Product id="3254355"
-         title="Plug in Wall Sconce Set of 2, Indoor Bedside Wall Lamp Light "
+    <Product image="https://m.media-amazon.com/images/I/61aoVkMoAwL._SL1263_.jpg"/> */}
+    {/* <Product id="3254355"
+         descrption="Plug in Wall Sconce Set of 2, Indoor Bedside Wall Lamp Light "
          price={36.9}
          rating={4}
          image="https://m.media-amazon.com/images/I/412II1XVo2S._AC_SL1000_.jpg"
-         />
+         /> */}
         
 
     </div>
@@ -78,25 +78,25 @@ function Home() {
     </div>
     <div className="productrow">
     <Product id="3254355"
-         title="Plug in Wall Sconce Set of 2, Indoor Bedside Wall Lamp Light "
+         descrption="Plug in Wall Sconce Set of 2, Indoor Bedside Wall Lamp Light "
          price={36.9}
          rating={4}
          image="https://m.media-amazon.com/images/I/412II1XVo2S._AC_SL1000_.jpg"
          />
     <Product id="3254355"
-         title="Plug in Wall Sconce Set of 2, Indoor Bedside Wall Lamp Light "
+         descrption="Plug in Wall Sconce Set of 2, Indoor Bedside Wall Lamp Light "
          price={36.9}
          rating={4}
          image="https://m.media-amazon.com/images/I/412II1XVo2S._AC_SL1000_.jpg"
          />
     <Product id="3254355"
-         title="Plug in Wall Sconce Set of 2, Indoor Bedside Wall Lamp Light "
+         descrption="Plug in Wall Sconce Set of 2, Indoor Bedside Wall Lamp Light "
          price={36.9}
          rating={4}
          image="https://m.media-amazon.com/images/I/412II1XVo2S._AC_SL1000_.jpg"
          />
     <Product id="3254355"
-         title="Plug in Wall Sconce Set of 2, Indoor Bedside Wall Lamp Light "
+         descrption="Plug in Wall Sconce Set of 2, Indoor Bedside Wall Lamp Light "
          price={36.9}
          rating={4}
          image="https://m.media-amazon.com/images/I/412II1XVo2S._AC_SL1000_.jpg"

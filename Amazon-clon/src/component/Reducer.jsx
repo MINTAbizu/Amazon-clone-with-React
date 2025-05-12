@@ -3,8 +3,10 @@ export const initialState = {
 };
 
 const reducer = (state, action) => {
+    console.log(action)
   switch (action.type) {
-    case 'add-to-basket':
+    
+    case 'Addtobasket':
       return {
         ...state,
         basket: [...state.basket, action.item],

@@ -1,17 +1,30 @@
-.subtotal{
+.subtotal {
     margin: 30px;
-    /* background-color: rgb(245, 198, 198); */
-    color: black;
-    height: 100px;
-    width: 100%;
+    margin-left: -80px; /* Consider adjusting this for better layout */
     margin-right: 20px;
-    text-align: center;
+    height: 100px;
+    width: calc(100% + 80px); /* Adjust width to account for negative margin */
     padding: 20px;
     background-color: rgb(198, 191, 191);
-
     border: 2px solid black;
     border-radius: 10px;
     text-align: center;
     color: black;
-    margin-left: -80px;
+    margin-left: -180px;
+}
+
+/* Optional: Add hover effect for the button */
+button {
+    cursor: pointer;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #f0c14b; /* Example button color */
+    color: black;
+    font-weight: bold;
+
+}
+
+button:hover {
+    background-color: #ddb347; /* Darker shade on hover */
 }

@@ -2,7 +2,9 @@ import React from 'react'
 import '../component/header.css'
 // import SearchIcon from '@mui/icons-material/Search';
 import {Link} from 'react-router-dom'
+import { useStateValue } from './StateProvider/Stateprovider'
 function Header() {
+  const [{basket},dispacth]=useStateValue()
   return (
     <div className='header'>
         <div className='logo'>
@@ -43,12 +45,12 @@ function Header() {
             <div className="order">
                 {/* <img src="" alt="order" /> */}
             </div>
-           <Link to={"/checkbox"}>
+           <Link to={"/checkout"}>
 
            <div className="cart">
             
                 {/* <img src="" alt="" /> */}
-                0
+               <p> {basket.length}</p>
             </div>
            
            </Link>
